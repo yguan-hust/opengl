@@ -1,2 +1,2 @@
 ex1: main.cpp
-	gcc -std=c++11 -stdlib=libc++ -lc++ main.cpp -lGLEW -lglfw3 -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo
+	c++ -std=c++11  main.cpp -I/usr/local/include -L/usr/local/lib -lGLEW -lglfw3 -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo
