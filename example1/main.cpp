@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+// comment
+
 GLuint program;
 GLint attribute_coord2d;
 
